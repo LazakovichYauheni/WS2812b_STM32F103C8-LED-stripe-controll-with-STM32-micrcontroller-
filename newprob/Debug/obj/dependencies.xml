@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\newprob\delay /I..\..\..\workspace\newprob\cmsis /I..\..\..\workspace /I..\..\.. /I..\..\..\workspace\newprob\ws2812 /I..\..\..\workspace\newprob\STM32F10x_StdPeriph_Driver\inc /I..\..\..\workspace\newprob /I..\..\..\workspace\newprob\cmsis_boot /I..\..\..\workspace\newprob\STM32F10x_StdPeriph_Driver">
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="16a79c38a97">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\types.h" lastModified="151401b4238">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="16a79c38680">
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="16a79c3867a">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="16a79c38668">
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16a79c38e8e">
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="16a79c38644">
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ws2812\led_examples.h" lastModified="16aa75e4fc4">
+         <include file="..\..\..\types.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="151401b4238">
+      </source>
+      <source file="..\..\..\ws2812\led_examples.c" lastModified="16aa75d25e0">
+         <include file="..\..\..\delay\delay.h"/>
+         <include file="..\..\..\ws2812\led_examples.h"/>
+         <include file="..\..\..\ws2812\ws2812.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="16aa7613ca0">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\misc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\delay\delay.h"/>
+         <include file="..\..\..\ws2812\ws2812.h"/>
+         <include file="..\..\..\ws2812\led_examples.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16a79c38ea2">
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\misc.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\ws2812\ws2812.h" lastModified="16aa763a0fb">
+         <include file="..\..\..\types.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="16a79c38a4a">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ws2812\ws2812.c" lastModified="16aa7621e99">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\delay\delay.h"/>
+         <include file="..\..\..\ws2812\ws2812.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\misc.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\delay\delay.h" lastModified="151401b4238">
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c" lastModified="151401b4238">
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\delay\delay.c" lastModified="151401b4238">
+         <include file="..\..\..\delay\delay.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\main2.c" lastModified="16a5fa099bc">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\delay\delay.h"/>
+         <include file="..\..\..\ws2812\ws2812.h"/>
+         <include file="..\..\..\ws2812\led_examples.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h" lastModified="151401b4238">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>

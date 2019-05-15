@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\newprob\delay -I..\..\..\workspace\newprob\cmsis -I..\..\..\workspace -I..\..\.. -I..\..\..\workspace\newprob\ws2812 -I..\..\..\workspace\newprob\STM32F10x_StdPeriph_Driver\inc -I..\..\..\workspace\newprob -I..\..\..\workspace\newprob\cmsis_boot -I..\..\..\workspace\newprob\STM32F10x_StdPeriph_Driver">
+      <target file="stm32f10x_dbgmcu.o" lastModified="16a79c58517">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="16a79c59090">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_iwdg.o" lastModified="16a79c591ea">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_crc.o" lastModified="16a79c589ca">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="16a79c58aab">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="16a79c58698">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_dac.o" lastModified="16a79c58860">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="16a79c59113">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c" lastModified="151401b4238"/>
+      </target>
+      <target file="misc.o" lastModified="16a79c58f32">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\misc.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_fsmc.o" lastModified="16a79c58608">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c" lastModified="151401b4238"/>
+      </target>
+      <target file="main2.o" lastModified="16aa763a53d">
+         <source file="..\..\..\main2.c" lastModified="16a5fa091ec"/>
+      </target>
+      <target file="led_examples.o" lastModified="16aa763a4f0">
+         <source file="..\..\..\ws2812\led_examples.c" lastModified="16aa75d25e0"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="16a79c586e5">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="16a79c38644"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="16a79c58dbd">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_bkp.o" lastModified="16a79c5918c">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c" lastModified="151401b4238"/>
+      </target>
+      <target file="ws2812.o" lastModified="16aa763a3b8">
+         <source file="..\..\..\ws2812\ws2812.c" lastModified="16aa7621e99"/>
+      </target>
+      <target file="stm32f10x_can.o" lastModified="16a79c5877f">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="16a79c58b45">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="16a79c587f6">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="16a79c58250">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c" lastModified="151401b4238"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="16a79c5858b">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="16a79c3867a"/>
+      </target>
+      <target file="delay.o" lastModified="16a79c582a0">
+         <source file="..\..\..\delay\delay.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="16a79c58be6">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="16a79c583c3">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_sdio.o" lastModified="16a79c58e4a">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_wwdg.o" lastModified="16a79c58f90">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c" lastModified="151401b4238"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="16a79c58ecf">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" lastModified="151401b4238"/>
+      </target>
+      <target file="main.o" lastModified="16aa763a488">
+         <source file="..\..\..\main.c" lastModified="16aa76134d0"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="16a79c58c61">
+         <source file="..\..\..\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" lastModified="151401b4238"/>
+      </target>
+   </processor>
+</history>
